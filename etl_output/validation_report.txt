@@ -1,0 +1,13 @@
+Raw records: 700
+DimCountry: 10 rows
+DimYear: 14 rows
+DimEnergySource: 5 rows
+FactEnergyProduction: 700 rows
+Source & fact production total: 85,461,988,543 MWh
+Missing cells: 0
+Duplicate source rows: 0
+Country-year groups with source shares summing above 100%: 122
+Rows with production above capacity * 8760 hours: 31
+Policy Changes excluded: generic text, not a usable policy event dimension.
+WARNING: Renewable share percentages must not be summed across sources.
+WARNING: Installed capacity is not additive across years.
